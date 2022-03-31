@@ -24,11 +24,11 @@ export default function Login() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    if (userId !== "testid") {
+    if (userId !== "test") {
       setIdErr(true);
     } else if (userPw !== "1234") {
       setPwErr(true);
-    } else if (userId === "testid" && userPw === "1234") {
+    } else if (userId === "test" && userPw === "1234") {
       dispatch(setUser("testUser", true));
       setUserId("");
       setUserPw("");
@@ -63,7 +63,7 @@ export default function Login() {
               id="email"
               label="User ID"
               autoFocus
-              helperText={idErr ? "Experience버전입니다 'testid'로 로그인할 수 있습니다." : ""}
+              helperText={idErr ? "Experience버전입니다 'tset'로 로그인할 수 있습니다." : ""}
               onChange={(e) => {
                 setUserId(e.target.value);
                 setIdErr(false);
@@ -78,7 +78,7 @@ export default function Login() {
               label="Password"
               type="password"
               id="password"
-              helperText={pwErr ? "Experience버전입니다 'testid'의 비밀번호는 '1234' 입니다." : ""}
+              helperText={pwErr ? "Experience버전입니다 'test'의 비밀번호는 '1234' 입니다." : ""}
               autoComplete="current-password"
               onChange={(e) => {
                 setUserPw(e.target.value);

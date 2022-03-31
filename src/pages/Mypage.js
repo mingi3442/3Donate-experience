@@ -206,7 +206,7 @@ export default function Mypage() {
                 </UserInfo>
               </UserContainer>
               <PostContainer>
-                <ContentFont>나의 프로젝트</ContentFont>
+                <ContentFont>프로젝트</ContentFont>
                 <Divider />
                 <List sx={{ width: "100%", minWidth: 500, mt: 2 }}>
                   {user.postData ? (
@@ -226,7 +226,7 @@ export default function Mypage() {
             <ContentFont>나의 NFT</ContentFont>
 
             <NftContainer>
-              {user.nftData ? user.nftData.map((e) => <Nft title={e.nftName} desc={e.nftDescription} img={e.nftImageIpfsAddr} />) : <div>ddddd</div>}
+              {user.nftData ? user.nftData.map((e) => <Nft title={e.nftName} desc={e.nftDescription} img={e.nftImageIpfsAddr} />) : <TopContainer>NFT가 없습니다</TopContainer>}
               {/* <Nft />
           <Nft />
           <Nft />

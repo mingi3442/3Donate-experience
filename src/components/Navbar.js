@@ -29,15 +29,8 @@ const Navbar = () => {
     setAnchorEl(null);
   };
   const logoutHandler = () => {
-    axios
-      .post("http://localhost:4999/user/logout")
-      .then((res) => {
-        dispatch(logoutUser({}, false));
-        history.push("/");
-      })
-      .catch((err) => {
-        console.log(err);
-      });
+    dispatch(logoutUser({}, false));
+    history.push("/");
   };
 
   const goToMypage = () => {

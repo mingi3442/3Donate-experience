@@ -57,7 +57,7 @@ export default function Signup() {
                   label="ID"
                   name="id"
                   autoComplete="id"
-                  helperText={idErr ? "Experience버전입니다 'testid'로 로그인할 수 있습니다." : ""}
+                  helperText={idErr ? "Experience버전입니다 'test'로 로그인할 수 있습니다." : ""}
                   onChange={(e) => {
                     setUserId(e.target.value);
                     setIdErr(false);
@@ -91,7 +91,7 @@ export default function Signup() {
                   type="password"
                   id="password"
                   autoComplete="new-password"
-                  helperText={pwErr ? "Experience버전입니다 'testid'의 비밀번호는 '1234' 입니다." : ""}
+                  helperText={pwErr ? "Experience버전입니다 'test'의 비밀번호는 '1234' 입니다." : ""}
                   onChange={(e) => {
                     setUserPw(e.target.value);
                     setPwErr(false);
