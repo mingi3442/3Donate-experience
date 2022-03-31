@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import "../App.css";
 import Grid from "@mui/material/Grid";
 import { FaList } from "react-icons/fa";
 import { FaRegListAlt } from "react-icons/fa";
 import Dataheader from "./Dataheader";
-import axios from "axios";
 import { useSelector } from "react-redux";
 
 const View = () => {

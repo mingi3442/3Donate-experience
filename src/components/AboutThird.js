@@ -1,6 +1,6 @@
 import React from "react";
 import { Divider } from "@mui/material";
-import { BoldText, Container, ContentContainer, ContentText, MainContainer, SubContainer, SubText, TitleContainer, TitleText } from "./AboutElements";
+import { Container, ContentContainer, ContentText, MainContainer, SubContainer, SubText, TitleContainer, TitleText } from "./AboutElements";
 
 export default function AboutThird() {
   return (
@@ -21,7 +21,7 @@ export default function AboutThird() {
         </SubContainer>
         <ContentContainer>
           <ContentText>
-            TDT Token을 이용해 프로젝트를 생성하고, 다른 사람들에게 데이터를 가여 받을 수 있습니다
+            TDT Token을 이용해 프로젝트를 생성하고, 다른 사람들에게 데이터를 기여 받을 수 있습니다
             <br />
             프로젝트를 생성할 때 대표 이미지를 받아 NFT가 생성되며
             <br /> 프로젝트에 데이터를 기부받은 사람에게 작은 답례를 위해 triple donate에서 준비하겠습니다.

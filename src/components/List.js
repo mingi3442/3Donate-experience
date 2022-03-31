@@ -1,16 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
-import axios from "axios";
 import DataList from "./DataList";
 import Dataheader from "./Dataheader";
 import Pagination from "react-js-pagination";
 import { useSelector } from "react-redux";
 
 const List = () => {
-  const posts = useSelector((state) => state.post);
-  console.log(posts);
-  const [loading, setLoading] = useState(false);
+  const posts = useSelector((state) => state.mypage.postData);
+
   const [currentPage, setcurrentPage] = useState(1);
   const [postsPerPage, setPostsPerPage] = useState(10);
 

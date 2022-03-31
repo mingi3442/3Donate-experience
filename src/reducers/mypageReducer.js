@@ -1,17 +1,17 @@
-// const ADD_POST = "ADD_POST";
-
 const initialState = {
   nftData: [
     {
       nftDescription: "게시글의 내용",
       nftId: "63",
-      nftImageIpfsAddr: "https://gateway.pinata.cloud/ipfs/QmaqQaFWxfavrHLzDN5x6M14983qDxrLSazTSCAMuXprNu",
+      nftImageIpfsAddr:
+        "https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2t5fGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60",
       nftName: "tests",
     },
     {
       nftDescription: "TEST",
       nftId: "68",
-      nftImageIpfsAddr: "https://gateway.pinata.cloud/ipfs/QmY8yEWJ7DEiZCuvzgvAqJ1RjZsbxcwBBnw3n7naZSmJQv",
+      nftImageIpfsAddr:
+        "https://images.unsplash.com/photo-1465080357990-d4bc259ec4a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c2t5fGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60",
       nftName: "테스트...",
     },
     {
@@ -20,7 +20,8 @@ const initialState = {
       data: ['[{"label":"dsfdsafgdsf","type":"Image"}]'],
       nftDescription: "dsadsa",
       nftId: "50",
-      nftImageIpfsAddr: "https://gateway.pinata.cloud/ipfs/QmUXyZtCzVoybSAuhdMyW6pnp6kWyyj713AWwt8QyfpcZ8",
+      nftImageIpfsAddr:
+        "https://images.unsplash.com/photo-1559628376-f3fe5f782a2e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHNreXxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60",
       nftName: "sadsad",
       seq: 4,
       title: "게시글",
@@ -35,7 +36,8 @@ const initialState = {
       data: ['[{"label":"fsafsafsaf","type":"Image"}]'],
       nftDescription: "TEST",
       nftId: "71",
-      nftImageIpfsAddr: "https://gateway.pinata.cloud/ipfs/QmYiRkSMLukjFYuwTcxhdz6ncdPT7RE3ak5mYS6KZQrWQD",
+      nftImageIpfsAddr:
+        "https://images.unsplash.com/photo-1553882951-9c3dab4a50cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHNreXxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60",
       nftName: "TSET NFT",
       seq: 1,
       title: "테스트 게시글",
@@ -53,7 +55,8 @@ const initialState = {
       data: ['[{"label":"fsafsafsaf","type":"Image"}]'],
       nftDescription: "TEST",
       nftId: "71",
-      nftImageIpfsAddr: "https://gateway.pinata.cloud/ipfs/QmYiRkSMLukjFYuwTcxhdz6ncdPT7RE3ak5mYS6KZQrWQD",
+      nftImageIpfsAddr:
+        "https://images.unsplash.com/photo-1553882951-9c3dab4a50cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHNreXxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60",
       nftName: "TSET NFT",
       seq: 1,
       title: "테스트 게시글",
@@ -68,7 +71,8 @@ const initialState = {
       data: ['[{"label":"fdsafdsaf","type":"Image"}]'],
       nftDescription: "TEST",
       nftId: "68",
-      nftImageIpfsAddr: "https://gateway.pinata.cloud/ipfs/QmaAe62GxPEhxafxRbzsSHKvZoxvoDHvTPBqWj1C6QgRmr",
+      nftImageIpfsAddr:
+        "https://images.unsplash.com/photo-1465080357990-d4bc259ec4a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c2t5fGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60",
       nftName: "테스트...",
       seq: 2,
       title: "테스트 프로젝트 제목",
@@ -83,7 +87,8 @@ const initialState = {
       data: ['[{"label":"dsafdsf","type":"Image"}]'],
       nftDescription: "게시글의 내용",
       nftId: "63",
-      nftImageIpfsAddr: "https://gateway.pinata.cloud/ipfs/QmaqQaFWxfavrHLzDN5x6M14983qDxrLSazTSCAMuXprNu",
+      nftImageIpfsAddr:
+        "https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2t5fGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60",
       nftName: "tests",
       seq: 3,
       title: "게시글 입니다",
@@ -98,7 +103,8 @@ const initialState = {
       data: ['[{"label":"dsfdsafgdsf","type":"Image"}]'],
       nftDescription: "게시글 내용입니다..!",
       nftId: "50",
-      nftImageIpfsAddr: "https://gateway.pinata.cloud/ipfs/QmUXyZtCzVoybSAuhdMyW6pnp6kWyyj713AWwt8QyfpcZ8",
+      nftImageIpfsAddr:
+        "https://images.unsplash.com/photo-1559628376-f3fe5f782a2e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHNreXxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60",
       nftName: "sadsad",
       seq: 4,
       title: "게시글",

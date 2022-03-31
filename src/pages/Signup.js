@@ -9,7 +9,6 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import { useHistory } from "react-router-dom";
 
 const theme = createTheme();
 
@@ -20,7 +19,6 @@ export default function Signup() {
   const [usernameErr, setUsernameErr] = useState(false);
   const [idErr, setIdErr] = useState(false);
   const [pwErr, setPwErr] = useState(false);
-  const history = useHistory();
 
   const handleSubmit = (event) => {
     event.preventDefault();

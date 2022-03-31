@@ -1,8 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import LogoSrc from "../assets/logo_black.png";
 import { Divider } from "@mui/material";
-import { ContentContainer, ContentText, SubContainer, SubText, TitleContainer, TitleText, Us } from "./AboutElements";
+import { ContentContainer, SubContainer, SubText, TitleContainer, TitleText, Us } from "./AboutElements";
 const MainContainer = styled.div`
   width: 90%;
   height: 100%

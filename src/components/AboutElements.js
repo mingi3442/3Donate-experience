@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import { Avatar, Badge, IconButton } from "@mui/material";
-import PersonIcon from "@mui/icons-material/Person";
 export const Container = styled.div`
   width: 100%;
   height: 100%;

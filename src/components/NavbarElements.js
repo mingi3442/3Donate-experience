@@ -25,7 +25,6 @@ export const NavLink = styled(Link)`
     text-decoration: none;
   }
   &.active {
-    /* color: #15cdfc; */
     border-bottom: 1px solid #15cdfc;
   }
 `;

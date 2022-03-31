@@ -10,94 +10,9 @@ import Home from "./pages/Home";
 import Post from "./pages/Post";
 import Mypage from "./pages/Mypage";
 import Signup from "./pages/Signup";
-import Nft from "./components/Nft";
+
 import Swap from "./pages/Swap";
 import About from "./pages/About";
-
-// const dummyData = [
-//   {
-//     seq: 9,
-//     title: "제목9",
-//     writer: "김이름",
-//     content: "내용",
-//     createdAt: 1647969241915,
-//     label: "남자",
-//     type: "Image",
-//   },
-//   {
-//     seq: 8,
-//     title: "제목8",
-//     writer: "김이름",
-//     content: "내용",
-//     createdAt: 1647969241915,
-//     label: "여자",
-//     type: "Audio",
-//   },
-//   {
-//     seq: 7,
-//     title: "제목7",
-//     writer: "김이름",
-//     content: "내용",
-//     createdAt: 1647969241915,
-//     label: "남자",
-//     type: "Image",
-//   },
-//   {
-//     seq: 6,
-//     title: "제목6",
-//     writer: "김이름",
-//     content: "내용",
-//     createdAt: 1647969241915,
-//     label: "남자",
-//     type: "Image",
-//   },
-
-//   {
-//     seq: 5,
-//     title: "제목5",
-//     writer: "김이름",
-//     content: "내용",
-//     createdAt: 1647969241915,
-//     label: "남자",
-//     type: "Image",
-//   },
-//   {
-//     seq: 4,
-//     title: "제목4",
-//     writer: "김이름",
-//     content: "내용",
-//     createdAt: 1647969241915,
-//     label: "남자",
-//     type: "Image",
-//   },
-//   {
-//     seq: 3,
-//     title: "제목3",
-//     writer: "김이름",
-//     content: "내용",
-//     createdAt: 1647969241915,
-//     label: "남자",
-//     type: "Image",
-//   },
-//   {
-//     seq: 2,
-//     title: "제목2",
-//     writer: "김이름",
-//     content: "내용",
-//     createdAt: 1647969241915,
-//     label: "여자",
-//     type: "Audio",
-//   },
-//   {
-//     seq: 1,
-//     title: "제목1",
-//     writer: "김이름",
-//     content: "내용",
-//     createdAt: 1647969241915,
-//     label: "남자",
-//     type: "Image",
-//   },
-// ];
 
 const reducer = (state, action) => {
   let newState = [];
@@ -166,9 +81,6 @@ function App() {
             <Route path="/signup">
               <Signup />
             </Route>
-            {/* <Route path="/nft">
-              <Nft />
-            </Route> */}
             <Route path="/swap">
               <Swap />
             </Route>

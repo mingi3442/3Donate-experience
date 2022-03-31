@@ -30,13 +30,6 @@ const Container = styled.div`
     opacity: 0.1;
   }
 `;
-// const Container = styled.div`
-//   width: 100%;
-//   height: 95vh;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-// `;
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
