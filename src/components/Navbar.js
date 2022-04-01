@@ -12,7 +12,7 @@ import axios from "axios";
 import { logoutUser } from "../reducers/loginReducer";
 import { useHistory } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
   axios.defaults.withCredentials = true;
   const history = useHistory();
   const dispatch = useDispatch();
@@ -39,7 +39,7 @@ const Navbar = () => {
         <NavIcon to="/">
           <img src={require("../assets/logo_white.png")} alt="logo" height="120px" width="200px" />
         </NavIcon>
-        <Bars />
+        <Bars onClick={toggle} />
         <NavMenu>
           <NavLink to="/about">About</NavLink>
           <NavLink to="/swap">Swap</NavLink>

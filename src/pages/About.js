@@ -9,6 +9,7 @@ import AboutThird from "../components/AboutThird";
 import AboutFourth from "../components/AboutFourth";
 import styled from "styled-components";
 import LogoSrc from "../assets/logo_black.png";
+import AboutFifth from "../components/AboutFifth";
 const Container = styled.div`
   width: 100%;
   height: 100%;
@@ -64,12 +65,12 @@ export default function About() {
   return (
     <Box
       sx={
-        value === 3
+        value === 4
           ? {
               flexGrow: 1,
               bgcolor: "background.paper",
               display: "flex",
-              height: 2300,
+              height: 2400,
             }
           : {
               flexGrow: 1,
@@ -94,14 +95,19 @@ export default function About() {
         />
         <Tab
           sx={{ padding: "50px 70px", fontWeight: 600, fontSize: "18px", textTransform: "none", borderBottom: "0.5px solid rgba(0,0,0,0.3)" }}
-          label="TDT Token"
+          label="Menu"
           {...pannelProps(1)}
         />
-        <Tab sx={{ padding: "50px 70px", fontWeight: 600, fontSize: "18px", textTransform: "none", borderBottom: "0.5px solid rgba(0,0,0,0.3)" }} label="NFT" {...pannelProps(2)} />
+        <Tab
+          sx={{ padding: "50px 70px", fontWeight: 600, fontSize: "18px", textTransform: "none", borderBottom: "0.5px solid rgba(0,0,0,0.3)" }}
+          label="TDT Token"
+          {...pannelProps(2)}
+        />
+        <Tab sx={{ padding: "50px 70px", fontWeight: 600, fontSize: "18px", textTransform: "none", borderBottom: "0.5px solid rgba(0,0,0,0.3)" }} label="NFT" {...pannelProps(3)} />
         <Tab
           sx={{ padding: "50px 70px", fontWeight: 600, fontSize: "18px", textTransform: "none", borderBottom: "0.5px solid rgba(0,0,0,0.3)" }}
           label="About Us"
-          {...pannelProps(3)}
+          {...pannelProps(4)}
         />
       </Tabs>
       <TabPanel value={value} index={0}>
@@ -115,6 +121,9 @@ export default function About() {
       </TabPanel>
       <TabPanel value={value} index={3}>
         <AboutFourth />
+      </TabPanel>
+      <TabPanel value={value} index={4}>
+        <AboutFifth />
       </TabPanel>
     </Box>
   );

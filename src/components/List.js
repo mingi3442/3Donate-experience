@@ -7,8 +7,8 @@ import Pagination from "react-js-pagination";
 import { useSelector } from "react-redux";
 
 const List = () => {
-  const posts = useSelector((state) => state.mypage.postData);
-
+  const posts = useSelector((state) => state.post);
+  console.log(posts);
   const [currentPage, setcurrentPage] = useState(1);
   const [postsPerPage, setPostsPerPage] = useState(10);
 

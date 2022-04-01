@@ -68,7 +68,7 @@ export default function IndexFourth() {
           <Grid item xs={12} md={4}>
             <Box data-aos="fade-up" sx={item}>
               <Box sx={number}>1</Box>
-              <Box component="img" src="http://temp20.zsol.co.kr/icon_img/document12.svg" alt="document" sx={image} />
+              <Box component="img" src="document.png" alt="document" sx={image} />
               <Typography sx={{ mt: 3, fontSize: "24px", fontWeight: 400 }} variant="h5" align="center">
                 필요한 프로젝트 제안
               </Typography>
@@ -77,7 +77,7 @@ export default function IndexFourth() {
           <Grid item xs={12} md={4}>
             <Box data-aos="fade-up" sx={item}>
               <Box sx={number}>2</Box>
-              <Box component="img" src="http://temp20.zsol.co.kr/icon_img/transform.svg" alt="transform" sx={image} />
+              <Box component="img" src="transfer.png" alt="transform" sx={image} />
               <Typography sx={{ mt: 3, fontSize: "24px", fontWeight: 400 }} variant="h5" align="center">
                 자신의 데이터를 이용해
               </Typography>
@@ -89,7 +89,7 @@ export default function IndexFourth() {
           <Grid item xs={12} md={4}>
             <Box data-aos="fade-up" sx={item}>
               <Box sx={number}>3</Box>
-              <Box component="img" src="http://temp20.zsol.co.kr/icon_img/handshake08.svg" alt="handshake" sx={image} />
+              <Box component="img" src="handshake.png" alt="handshake" sx={image} />
               <Typography sx={{ mt: 3, fontSize: "24px", fontWeight: 400 }} variant="h5" align="center">
                 {"기여한 프로젝트에 따른 "}
               </Typography>

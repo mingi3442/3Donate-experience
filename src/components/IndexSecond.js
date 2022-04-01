@@ -5,7 +5,7 @@ import Container from "@mui/material/Container";
 import { Typography } from "@mui/material";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
+// import HandshakeIcon from "@mui/icons-material/Handshake";
 const item = {
   display: "flex",
   flexDirection: "column",
@@ -46,7 +46,7 @@ export default function IndexSecond() {
         <Grid container spacing={5}>
           <Grid item xs={12} md={4}>
             <Box data-aos="zoom-in" sx={item}>
-              <Box component="img" src="http://temp20.zsol.co.kr/icon_img/semiconductor.svg" alt="semiconductor" sx={{ height: 55 }} />
+              <Box component="img" src="/project.png" alt="semiconductor" sx={{ height: 55 }} />
               <Typography variant="h5" sx={{ my: 5, fontWeight: 600 }}>
                 의미 있는 프로젝트
               </Typography>
@@ -57,7 +57,7 @@ export default function IndexSecond() {
           </Grid>
           <Grid item xs={12} md={4}>
             <Box data-aos="zoom-in" sx={item}>
-              <Box component="img" src="http://temp20.zsol.co.kr/icon_img/resume03.svg" alt="resume" sx={{ height: 55 }} />
+              <Box component="img" src="docs.png" alt="resume" sx={{ height: 55 }} />
               <Typography variant="h5" sx={{ my: 5, fontWeight: 600 }}>
                 필요한 데이터
               </Typography>
@@ -70,7 +70,7 @@ export default function IndexSecond() {
           </Grid>
           <Grid item xs={12} md={4}>
             <Box data-aos="zoom-in" sx={item}>
-              <Box component="img" src="http://temp20.zsol.co.kr/icon_img/care.svg" alt="care" sx={{ height: 55 }} />
+              <Box component="img" src="care.png" alt="care" sx={{ height: 55 }} />
               <Typography variant="h5" sx={{ my: 5, fontWeight: 600 }}>
                 토큰과 NFT를 통한 보상
               </Typography>

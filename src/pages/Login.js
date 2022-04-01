@@ -26,6 +26,7 @@ export default function Login() {
     event.preventDefault();
     if (userId !== "test") {
       setIdErr(true);
+      setPwErr(true);
     } else if (userPw !== "1234") {
       setPwErr(true);
     } else if (userId === "test" && userPw === "1234") {
@@ -63,7 +64,7 @@ export default function Login() {
               id="email"
               label="User ID"
               autoFocus
-              helperText={idErr ? "Experience버전입니다 'tset'로 로그인할 수 있습니다." : ""}
+              helperText={idErr ? "Experience버전입니다 'test'로 로그인할 수 있습니다." : ""}
               onChange={(e) => {
                 setUserId(e.target.value);
                 setIdErr(false);
