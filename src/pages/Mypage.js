@@ -165,14 +165,13 @@ export default function Mypage() {
                     <TitleFont>TDT</TitleFont>
                     <DescFont>
                       {user.userData.balance === 0 ? "0" : user.userData.balance}
-                      <Avatar sx={{ ml: 0.5, width: "17px", height: "17px" }} alt="share" src="http://temp20.zsol.co.kr/icon_img/share01.svg" />
+                      <Avatar sx={{ ml: 0.5, width: "17px", height: "17px" }} alt="token" src="/token.png" />
                     </DescFont>
                   </InfoContent>
                   <InfoContent>
                     <TitleFont>NFT</TitleFont>
                     <DescFont>
-                      {user.nftData.length === 0 ? "0" : user.nftData.length}{" "}
-                      <Avatar sx={{ ml: 0.5, width: "17px", height: "17px" }} alt="trophy" src="http://temp20.zsol.co.kr/icon_img/trophy.svg" />
+                      {user.nftData.length === 0 ? "0" : user.nftData.length} <Avatar sx={{ ml: 0.5, width: "17px", height: "17px" }} alt="trophy" src="/nft.png" />
                     </DescFont>
                   </InfoContent>
                 </InfoContents>

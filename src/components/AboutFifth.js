@@ -114,7 +114,7 @@ export default function AboutFifth() {
               <DescFont>✓ Posting Page UI, UX</DescFont>
               <DescFont>✓ View Page UI, UX</DescFont>
               <DescFont>✓ Posting page (NftImg, title, label, type, etc..) register function</DescFont>
-              <DescFont>✓View page data donation Function</DescFont>
+              <DescFont>✓ View page data donation Function</DescFont>
               <DescFont>✓ List Page pagination Function</DescFont>
             </ContentContainer>
           </UsContainer>

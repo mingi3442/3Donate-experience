@@ -162,7 +162,7 @@ export const Us = ({ name, stack, role, imgAddr, blogAddr, githubAddr }) => {
         <InfoContents>
           <IconContainer>
             <IconButton href={blogAddr} sx={{ mr: 2 }} aria-label="github">
-              <Avatar sx={{ width: "22px", height: "22px" }} alt="blog" src="http://temp20.zsol.co.kr/icon_img/sns04.svg" />
+              <Avatar sx={{ mt: 0.3, width: "25px", height: "22px" }} alt="blog" src="/blog.png" />
             </IconButton>
             <IconButton href={githubAddr} aria-label="github">
               <GitHubIcon />
